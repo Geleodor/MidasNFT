@@ -10,7 +10,7 @@ contract NFT is ERC721A, Ownable {
 
     uint256 public fee = 0.00005 ether;
     uint256 public supply = 100000;
-    string public baseURI = "";
+    string public baseURI = "some_URI";
 
     constructor() ERC721A("MIDAS", "MDS") {}
 
